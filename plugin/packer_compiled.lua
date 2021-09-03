@@ -69,17 +69,49 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
-  molokai = {
+  ["nlua.nvim"] = {
     loaded = true,
-    path = "/home/shahab96/.local/share/nvim/site/pack/packer/start/molokai"
+    path = "/home/shahab96/.local/share/nvim/site/pack/packer/start/nlua.nvim"
+  },
+  ["nvim-compe"] = {
+    loaded = true,
+    path = "/home/shahab96/.local/share/nvim/site/pack/packer/start/nvim-compe"
+  },
+  ["nvim-lspconfig"] = {
+    loaded = true,
+    path = "/home/shahab96/.local/share/nvim/site/pack/packer/start/nvim-lspconfig"
+  },
+  ["nvim-lspinstall"] = {
+    loaded = true,
+    path = "/home/shahab96/.local/share/nvim/site/pack/packer/start/nvim-lspinstall"
+  },
+  ["nvim-tree.lua"] = {
+    loaded = true,
+    path = "/home/shahab96/.local/share/nvim/site/pack/packer/start/nvim-tree.lua"
   },
   ["packer.nvim"] = {
     loaded = true,
     path = "/home/shahab96/.local/share/nvim/site/pack/packer/start/packer.nvim"
   },
-  vimwiki = {
+  ["plenary.nvim"] = {
     loaded = true,
-    path = "/home/shahab96/.local/share/nvim/site/pack/packer/start/vimwiki"
+    path = "/home/shahab96/.local/share/nvim/site/pack/packer/start/plenary.nvim"
+  },
+  ["popup.nvim"] = {
+    loaded = true,
+    path = "/home/shahab96/.local/share/nvim/site/pack/packer/start/popup.nvim"
+  },
+  ["telescope.nvim"] = {
+    loaded = true,
+    path = "/home/shahab96/.local/share/nvim/site/pack/packer/start/telescope.nvim"
+  },
+  vim = {
+    loaded = true,
+    path = "/home/shahab96/.local/share/nvim/site/pack/packer/start/vim"
+  },
+  ["vim-fugitive"] = {
+    loaded = true,
+    path = "/home/shahab96/.local/share/nvim/site/pack/packer/start/vim-fugitive"
   }
 }
 

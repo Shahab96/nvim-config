@@ -19,7 +19,9 @@ packer.startup(function()
   }
 
   use 'neovim/nvim-lspconfig'
+  use 'hrsh7th/nvim-compe'
   use 'tjdevries/nlua.nvim'
   use 'tpope/vim-fugitive'
   use 'dracula/vim'
+  use 'kabouzeid/nvim-lspinstall'
 end)
